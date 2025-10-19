@@ -1,0 +1,217 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+
+
+main{
+    height: 1000px;   /*высота основной части*/
+    display: flex;
+}
+
+
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.block1{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(52, 0, 73);
+    background: linear-gradient( to left, rgb(52, 0, 7), rgb(255, 0, 255));
+}
+.block2{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(133, 0, 0);
+    background: linear-gradient( to left, rgb(133, 0, 0), blue);
+}
+.block3{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(2, 0, 126);
+    background: linear-gradient( to left, rgb(2, 0, 126), rgb(255, 0, 242));
+}
+.block4{
+    width: 25%;
+    height: 100%;
+    background-color: rgb(139, 0, 139);
+    background: linear-gradient( to left, rgb(139, 0, 138), blue);
+}
+.block1 li{
+    background-color: blanchedalmond; /*цвет фона*/
+    line-height: 2em;  /*межстрочный интернвал*/
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10%;
+    height: 50px;
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-type: \2705;
+}
+
+.block1 li:hover{
+    background-color: brown;
+    color: wheat;
+    list-style-type: \274C;
+    width: 70%;
+    height: 70px;
+}
+.block2 li:hover{
+    background-color: brown;
+    color: wheat;
+    list-style-type: \274C;
+    width: 70%;
+    height: 70px;
+}
+.block3 li:hover{
+    background-color: brown;
+    color: wheat;
+    list-style-type: \274C;
+    width: 70%;
+    height: 70px;
+}
+.block4 li:hover{
+    background-color: brown;
+    color: wheat;
+    list-style-type: \274C;
+    width: 70%;
+    height: 70px;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    font-size: 20px;
+    width: 100%;
+    border: 2px solid white;
+    text-align: center;
+    overflow: hidden;
+}
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    float: left;
+}
+.nav a:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+.block2 li{
+    background-color: blanchedalmond; /*цвет фона*/
+    line-height: 2em;  /*межстрочный интернвал*/
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10%;
+    height: 50px;
+    text-overflow: clip
+
+}
+.block3 li{
+    background-color: blanchedalmond; /*цвет фона*/
+    line-height: 2em;  /*межстрочный интернвал*/
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10%;
+    height: 50px;
+    outline-style: solid;
+    list-style-type: disc;
+
+}
+.block4 li{
+    background-color: blanchedalmond; /*цвет фона*/
+    line-height: 2em;  /*межстрочный интернвал*/
+    margin-top: 10px;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10%;
+    height: 50px;
+    list-style-type: square;
+}
+.block5{
+    width: 100%;
+    height: 300px;
+    padding: 50px;
+    background-color: blue;
+}
+.btn1{
+    width: 300px;
+    height: 70px;
+    background-color: red;
+    color: white;
+    padding: 20px 30px;
+    font-size: 30px;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid;
+}
+form{
+    width: 100%;
+    float: right;
+    display: flex;
+}
+.input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+}
+
+.search{
+    width: 75%;
+}
+
+.button{
+    width: 15px;
+    background-color: rgb(0, 0, 238);
+    color: rgb(164, 212, 255);
+}
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(14, 7, 119);
+    color: rgb(255, 0, 0);
+}
+
+
+
